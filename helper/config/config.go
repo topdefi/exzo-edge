@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/chain"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 )
 
 // GetWhitelist fetches whitelist object from the config

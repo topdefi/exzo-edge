@@ -4,17 +4,17 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/fork"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/contracts/staking"
-	stakingHelper "github.com/0xPolygon/polygon-edge/helper/staking"
-	"github.com/0xPolygon/polygon-edge/server"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/ExzoNetwork/ExzoCoin/chain"
+	"github.com/ExzoNetwork/ExzoCoin/command"
+	"github.com/ExzoNetwork/ExzoCoin/command/helper"
+	"github.com/ExzoNetwork/ExzoCoin/consensus/ibft"
+	"github.com/ExzoNetwork/ExzoCoin/consensus/ibft/fork"
+	"github.com/ExzoNetwork/ExzoCoin/consensus/ibft/signer"
+	"github.com/ExzoNetwork/ExzoCoin/contracts/staking"
+	stakingHelper "github.com/ExzoNetwork/ExzoCoin/helper/staking"
+	"github.com/ExzoNetwork/ExzoCoin/server"
+	"github.com/ExzoNetwork/ExzoCoin/types"
+	"github.com/ExzoNetwork/ExzoCoin/validators"
 )
 
 const (

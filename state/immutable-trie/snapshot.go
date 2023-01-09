@@ -1,9 +1,9 @@
 package itrie
 
 import (
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/crypto"
+	"github.com/ExzoNetwork/ExzoCoin/state"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 	"github.com/umbracle/fastrlp"
 )
 

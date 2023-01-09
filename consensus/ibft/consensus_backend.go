@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/0xPolygon/go-ibft/messages"
-	"github.com/0xPolygon/polygon-edge/consensus"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/consensus"
+	"github.com/ExzoNetwork/ExzoCoin/consensus/ibft/signer"
+	"github.com/ExzoNetwork/ExzoCoin/helper/hex"
+	"github.com/ExzoNetwork/ExzoCoin/state"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 )
 
 func (i *backendIBFT) BuildProposal(blockNumber uint64) []byte {

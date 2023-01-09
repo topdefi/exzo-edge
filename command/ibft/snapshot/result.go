@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	ibftHelper "github.com/0xPolygon/polygon-edge/command/ibft/helper"
-	ibftOp "github.com/0xPolygon/polygon-edge/consensus/ibft/proto"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/ExzoNetwork/ExzoCoin/command/helper"
+	ibftHelper "github.com/ExzoNetwork/ExzoCoin/command/ibft/helper"
+	ibftOp "github.com/ExzoNetwork/ExzoCoin/consensus/ibft/proto"
+	"github.com/ExzoNetwork/ExzoCoin/validators"
 )
 
 type IBFTSnapshotVote struct {

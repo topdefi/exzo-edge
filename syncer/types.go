@@ -7,11 +7,11 @@ import (
 
 	rawGrpc "google.golang.org/grpc"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/helper/progress"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/network/event"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/blockchain"
+	"github.com/ExzoNetwork/ExzoCoin/helper/progress"
+	"github.com/ExzoNetwork/ExzoCoin/network"
+	"github.com/ExzoNetwork/ExzoCoin/network/event"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"google.golang.org/protobuf/proto"
 )

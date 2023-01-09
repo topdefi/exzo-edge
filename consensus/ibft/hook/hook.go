@@ -1,8 +1,8 @@
 package hook
 
 import (
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/state"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 )
 
 type ShouldWriteTransactionsFunc func(uint64) bool

@@ -5,9 +5,9 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/secrets"
+	"github.com/ExzoNetwork/ExzoCoin/chain"
+	"github.com/ExzoNetwork/ExzoCoin/network"
+	"github.com/ExzoNetwork/ExzoCoin/secrets"
 )
 
 const DefaultGRPCPort int = 9632

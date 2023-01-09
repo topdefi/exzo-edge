@@ -1,8 +1,8 @@
 package store
 
 import (
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/consensus/ibft/signer"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 )
 
 // Utilities for test

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/ExzoNetwork/ExzoCoin/types"
+	"github.com/ExzoNetwork/ExzoCoin/validators"
 )
 
 type ValidatorTypeGetter func(uint64) (validators.ValidatorType, error)

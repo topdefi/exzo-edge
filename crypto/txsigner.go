@@ -6,9 +6,9 @@ import (
 	"math/big"
 	"math/bits"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/chain"
+	"github.com/ExzoNetwork/ExzoCoin/helper/keccak"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 	"github.com/umbracle/fastrlp"
 )
 

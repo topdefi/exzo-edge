@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/contracts/staking"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/helper/predeployment"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/chain"
+	"github.com/ExzoNetwork/ExzoCoin/command"
+	"github.com/ExzoNetwork/ExzoCoin/command/helper"
+	"github.com/ExzoNetwork/ExzoCoin/contracts/staking"
+	"github.com/ExzoNetwork/ExzoCoin/helper/hex"
+	"github.com/ExzoNetwork/ExzoCoin/helper/predeployment"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 )
 
 const (

@@ -5,12 +5,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/proto"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
+	"github.com/ExzoNetwork/ExzoCoin/consensus/ibft/proto"
+	"github.com/ExzoNetwork/ExzoCoin/consensus/ibft/signer"
+	"github.com/ExzoNetwork/ExzoCoin/crypto"
+	"github.com/ExzoNetwork/ExzoCoin/types"
+	"github.com/ExzoNetwork/ExzoCoin/validators"
+	"github.com/ExzoNetwork/ExzoCoin/validators/store"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

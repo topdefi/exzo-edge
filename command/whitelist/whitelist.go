@@ -1,15 +1,15 @@
 package whitelist
 
 import (
-	"github.com/0xPolygon/polygon-edge/command/whitelist/deployment"
-	"github.com/0xPolygon/polygon-edge/command/whitelist/show"
+	"github.com/ExzoNetwork/ExzoCoin/command/whitelist/deployment"
+	"github.com/ExzoNetwork/ExzoCoin/command/whitelist/show"
 	"github.com/spf13/cobra"
 )
 
 func GetCommand() *cobra.Command {
 	whitelistCmd := &cobra.Command{
 		Use:   "whitelist",
-		Short: "Top level command for modifying the Polygon Edge whitelists within the config. Only accepts subcommands.",
+		Short: "Top level command for modifying the Exzo Network whitelists within the config. Only accepts subcommands.",
 	}
 
 	registerSubcommands(whitelistCmd)

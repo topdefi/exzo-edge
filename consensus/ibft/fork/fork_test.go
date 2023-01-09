@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	testHelper "github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/ExzoNetwork/ExzoCoin/helper/common"
+	testHelper "github.com/ExzoNetwork/ExzoCoin/helper/tests"
+	"github.com/ExzoNetwork/ExzoCoin/types"
+	"github.com/ExzoNetwork/ExzoCoin/validators"
 	"github.com/stretchr/testify/assert"
 )
 

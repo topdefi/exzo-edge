@@ -3,10 +3,10 @@ package backup
 import (
 	"errors"
 
-	"github.com/0xPolygon/polygon-edge/archive"
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/archive"
+	"github.com/ExzoNetwork/ExzoCoin/command"
+	"github.com/ExzoNetwork/ExzoCoin/command/helper"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 	"github.com/hashicorp/go-hclog"
 )
 

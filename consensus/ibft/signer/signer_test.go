@@ -6,10 +6,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	testHelper "github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/ExzoNetwork/ExzoCoin/crypto"
+	testHelper "github.com/ExzoNetwork/ExzoCoin/helper/tests"
+	"github.com/ExzoNetwork/ExzoCoin/types"
+	"github.com/ExzoNetwork/ExzoCoin/validators"
 	"github.com/stretchr/testify/assert"
 )
 

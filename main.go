@@ -3,8 +3,8 @@ package main
 import (
 	_ "embed"
 
-	"github.com/0xPolygon/polygon-edge/command/root"
-	"github.com/0xPolygon/polygon-edge/licenses"
+	"github.com/ExzoNetwork/ExzoCoin/command/root"
+	"github.com/ExzoNetwork/ExzoCoin/licenses"
 )
 
 var (

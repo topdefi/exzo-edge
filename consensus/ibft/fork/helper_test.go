@@ -7,12 +7,12 @@ import (
 	"path"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	testHelper "github.com/0xPolygon/polygon-edge/helper/tests"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
-	"github.com/0xPolygon/polygon-edge/validators/store/snapshot"
+	"github.com/ExzoNetwork/ExzoCoin/crypto"
+	testHelper "github.com/ExzoNetwork/ExzoCoin/helper/tests"
+	"github.com/ExzoNetwork/ExzoCoin/types"
+	"github.com/ExzoNetwork/ExzoCoin/validators"
+	"github.com/ExzoNetwork/ExzoCoin/validators/store"
+	"github.com/ExzoNetwork/ExzoCoin/validators/store/snapshot"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	txpoolProto "github.com/0xPolygon/polygon-edge/txpool/proto"
+	"github.com/ExzoNetwork/ExzoCoin/command/helper"
+	txpoolProto "github.com/ExzoNetwork/ExzoCoin/txpool/proto"
 )
 
 type TxPoolEventResult struct {

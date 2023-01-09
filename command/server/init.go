@@ -6,16 +6,16 @@ import (
 	"math"
 	"net"
 
-	"github.com/0xPolygon/polygon-edge/command/server/config"
+	"github.com/ExzoNetwork/ExzoCoin/command/server/config"
 
-	"github.com/0xPolygon/polygon-edge/network/common"
+	"github.com/ExzoNetwork/ExzoCoin/network/common"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/server"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/chain"
+	"github.com/ExzoNetwork/ExzoCoin/command/helper"
+	"github.com/ExzoNetwork/ExzoCoin/network"
+	"github.com/ExzoNetwork/ExzoCoin/secrets"
+	"github.com/ExzoNetwork/ExzoCoin/server"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 )
 
 var (

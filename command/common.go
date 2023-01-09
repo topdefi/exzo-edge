@@ -5,12 +5,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/secrets/local"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/ExzoNetwork/ExzoCoin/crypto"
+	"github.com/ExzoNetwork/ExzoCoin/helper/common"
+	"github.com/ExzoNetwork/ExzoCoin/secrets"
+	"github.com/ExzoNetwork/ExzoCoin/secrets/local"
+	"github.com/ExzoNetwork/ExzoCoin/types"
+	"github.com/ExzoNetwork/ExzoCoin/validators"
 	"github.com/hashicorp/go-hclog"
 )
 

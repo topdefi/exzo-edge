@@ -3,18 +3,18 @@ package server
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/command/server/config"
-	"github.com/0xPolygon/polygon-edge/command/server/export"
-	"github.com/0xPolygon/polygon-edge/server"
+	"github.com/ExzoNetwork/ExzoCoin/command"
+	"github.com/ExzoNetwork/ExzoCoin/command/helper"
+	"github.com/ExzoNetwork/ExzoCoin/command/server/config"
+	"github.com/ExzoNetwork/ExzoCoin/command/server/export"
+	"github.com/ExzoNetwork/ExzoCoin/server"
 	"github.com/spf13/cobra"
 )
 
 func GetCommand() *cobra.Command {
 	serverCmd := &cobra.Command{
 		Use:     "server",
-		Short:   "The default command that starts the Polygon Edge client, by bootstrapping all modules together",
+		Short:   "The default command that starts the Exzo Network client, by bootstrapping all modules together",
 		PreRunE: runPreRun,
 		Run:     runCommand,
 	}
@@ -64,7 +64,7 @@ func setFlags(cmd *cobra.Command) {
 		&params.rawConfig.DataDir,
 		dataDirFlag,
 		defaultConfig.DataDir,
-		"the data directory used for storing Polygon Edge client data",
+		"the data directory used for storing Exzo Network client data",
 	)
 
 	cmd.Flags().StringVar(

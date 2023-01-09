@@ -9,14 +9,14 @@ import (
 	"testing"
 	"time"
 
-	ibftOp "github.com/0xPolygon/polygon-edge/consensus/ibft/proto"
-	"github.com/0xPolygon/polygon-edge/contracts/staking"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/e2e/framework"
-	stakingHelper "github.com/0xPolygon/polygon-edge/helper/staking"
-	"github.com/0xPolygon/polygon-edge/helper/tests"
-	txpoolOp "github.com/0xPolygon/polygon-edge/txpool/proto"
-	"github.com/0xPolygon/polygon-edge/types"
+	ibftOp "github.com/ExzoNetwork/ExzoCoin/consensus/ibft/proto"
+	"github.com/ExzoNetwork/ExzoCoin/contracts/staking"
+	"github.com/ExzoNetwork/ExzoCoin/crypto"
+	"github.com/ExzoNetwork/ExzoCoin/e2e/framework"
+	stakingHelper "github.com/ExzoNetwork/ExzoCoin/helper/staking"
+	"github.com/ExzoNetwork/ExzoCoin/helper/tests"
+	txpoolOp "github.com/ExzoNetwork/ExzoCoin/txpool/proto"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 	"github.com/golang/protobuf/ptypes/any"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/ethgo"
@@ -761,7 +761,7 @@ func TestSnapshotUpdating(t *testing.T) {
 				config.PremineValidatorBalance(defaultBalance)
 			} else {
 				// Other nodes should not be in the validator set
-				dirPrefix := "polygon-edge-non-validator-"
+				dirPrefix := "exzocoin-non-validator-"
 				config.SetIBFTDirPrefix(dirPrefix)
 				config.SetIBFTDir(fmt.Sprintf("%s%d", dirPrefix, i))
 			}

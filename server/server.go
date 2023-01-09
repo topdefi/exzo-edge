@@ -11,24 +11,24 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/archive"
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/consensus"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	configHelper "github.com/0xPolygon/polygon-edge/helper/config"
-	"github.com/0xPolygon/polygon-edge/helper/progress"
-	"github.com/0xPolygon/polygon-edge/jsonrpc"
-	"github.com/0xPolygon/polygon-edge/network"
-	"github.com/0xPolygon/polygon-edge/secrets"
-	"github.com/0xPolygon/polygon-edge/server/proto"
-	"github.com/0xPolygon/polygon-edge/state"
-	itrie "github.com/0xPolygon/polygon-edge/state/immutable-trie"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/state/runtime/tracer"
-	"github.com/0xPolygon/polygon-edge/txpool"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/archive"
+	"github.com/ExzoNetwork/ExzoCoin/blockchain"
+	"github.com/ExzoNetwork/ExzoCoin/chain"
+	"github.com/ExzoNetwork/ExzoCoin/consensus"
+	"github.com/ExzoNetwork/ExzoCoin/crypto"
+	"github.com/ExzoNetwork/ExzoCoin/helper/common"
+	configHelper "github.com/ExzoNetwork/ExzoCoin/helper/config"
+	"github.com/ExzoNetwork/ExzoCoin/helper/progress"
+	"github.com/ExzoNetwork/ExzoCoin/jsonrpc"
+	"github.com/ExzoNetwork/ExzoCoin/network"
+	"github.com/ExzoNetwork/ExzoCoin/secrets"
+	"github.com/ExzoNetwork/ExzoCoin/server/proto"
+	"github.com/ExzoNetwork/ExzoCoin/state"
+	itrie "github.com/ExzoNetwork/ExzoCoin/state/immutable-trie"
+	"github.com/ExzoNetwork/ExzoCoin/state/runtime"
+	"github.com/ExzoNetwork/ExzoCoin/state/runtime/tracer"
+	"github.com/ExzoNetwork/ExzoCoin/txpool"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
@@ -86,7 +86,7 @@ func newFileLogger(config *Config) (hclog.Logger, error) {
 	}
 
 	return hclog.New(&hclog.LoggerOptions{
-		Name:       "polygon",
+		Name:       "exzocoin",
 		Level:      config.LogLevel,
 		Output:     logFileWriter,
 		JSONFormat: config.JSONLogFormat,
@@ -96,7 +96,7 @@ func newFileLogger(config *Config) (hclog.Logger, error) {
 // newCLILogger returns minimal logger instance that sends all logs to standard output
 func newCLILogger(config *Config) hclog.Logger {
 	return hclog.New(&hclog.LoggerOptions{
-		Name:       "polygon",
+		Name:       "exzocoin",
 		Level:      config.LogLevel,
 		JSONFormat: config.JSONLogFormat,
 	})

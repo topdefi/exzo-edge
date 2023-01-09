@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/chain"
+	"github.com/ExzoNetwork/ExzoCoin/chain"
 	"github.com/stretchr/testify/assert"
 )
 
 func TestIdentityHandshake(t *testing.T) {
-	defaultChainID := 100
+	defaultChainID := 1229
 
 	testTable := []struct {
 		name    string

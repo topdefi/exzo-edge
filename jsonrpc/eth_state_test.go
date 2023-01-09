@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/chain"
+	"github.com/ExzoNetwork/ExzoCoin/helper/hex"
+	"github.com/ExzoNetwork/ExzoCoin/state"
+	"github.com/ExzoNetwork/ExzoCoin/state/runtime"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/umbracle/fastrlp"
 )

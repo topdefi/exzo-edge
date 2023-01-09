@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/state/runtime/tracer"
-	"github.com/0xPolygon/polygon-edge/state/runtime/tracer/structtracer"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/helper/hex"
+	"github.com/ExzoNetwork/ExzoCoin/state/runtime/tracer"
+	"github.com/ExzoNetwork/ExzoCoin/state/runtime/tracer/structtracer"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 )
 
 var (

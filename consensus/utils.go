@@ -1,8 +1,8 @@
 package consensus
 
 import (
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/types/buildroot"
+	"github.com/ExzoNetwork/ExzoCoin/types"
+	"github.com/ExzoNetwork/ExzoCoin/types/buildroot"
 )
 
 // BuildBlockParams are parameters passed into the BuildBlock helper method

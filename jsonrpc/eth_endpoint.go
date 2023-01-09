@@ -8,12 +8,12 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/umbracle/fastrlp"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/helper/progress"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/chain"
+	"github.com/ExzoNetwork/ExzoCoin/helper/common"
+	"github.com/ExzoNetwork/ExzoCoin/helper/progress"
+	"github.com/ExzoNetwork/ExzoCoin/state"
+	"github.com/ExzoNetwork/ExzoCoin/state/runtime"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 )
 
 type ethTxPoolStore interface {

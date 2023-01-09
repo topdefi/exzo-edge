@@ -7,10 +7,10 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/helper/progress"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/blockchain"
+	"github.com/ExzoNetwork/ExzoCoin/helper/common"
+	"github.com/ExzoNetwork/ExzoCoin/helper/progress"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 )
 
 const (

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/helper/hex"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 	"github.com/stretchr/testify/assert"
 )
 

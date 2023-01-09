@@ -1,6 +1,6 @@
 # E2E tests
 
-The implemented E2E tests start a local instance of polygon-edge.
+The implemented E2E tests start a local instance of exzocoin.
 
 ## Step 1: Run the tests
 
@@ -8,10 +8,10 @@ Use the make file to launch the tests `make test-e2e`
 
 ## Manual checks if things are acting funny
 
-### Check if the polygon-edge process is running
+### Check if the exzocoin process is running
 
-If you've stopped the tests abruptly, chances are the polygon-edge process is still running on your machine. <br/ >
-In order for the tests to function normally, please kill the possible remaining processes using `killall polygon-edge`
+If you've stopped the tests abruptly, chances are the exzocoin process is still running on your machine. <br/ >
+In order for the tests to function normally, please kill the possible remaining processes using `killall exzocoin`
 
 ### Clean the golang test cache
 

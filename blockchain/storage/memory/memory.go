@@ -1,8 +1,8 @@
 package memory
 
 import (
-	"github.com/0xPolygon/polygon-edge/blockchain/storage"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
+	"github.com/ExzoNetwork/ExzoCoin/blockchain/storage"
+	"github.com/ExzoNetwork/ExzoCoin/helper/hex"
 	"github.com/hashicorp/go-hclog"
 )
 

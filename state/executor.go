@@ -6,13 +6,13 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/crypto"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/state/runtime/evm"
-	"github.com/0xPolygon/polygon-edge/state/runtime/precompiled"
-	"github.com/0xPolygon/polygon-edge/state/runtime/tracer"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/chain"
+	"github.com/ExzoNetwork/ExzoCoin/crypto"
+	"github.com/ExzoNetwork/ExzoCoin/state/runtime"
+	"github.com/ExzoNetwork/ExzoCoin/state/runtime/evm"
+	"github.com/ExzoNetwork/ExzoCoin/state/runtime/precompiled"
+	"github.com/ExzoNetwork/ExzoCoin/state/runtime/tracer"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 	"github.com/hashicorp/go-hclog"
 )
 

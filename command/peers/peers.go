@@ -1,10 +1,10 @@
 package peers
 
 import (
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/command/peers/add"
-	"github.com/0xPolygon/polygon-edge/command/peers/list"
-	"github.com/0xPolygon/polygon-edge/command/peers/status"
+	"github.com/ExzoNetwork/ExzoCoin/command/helper"
+	"github.com/ExzoNetwork/ExzoCoin/command/peers/add"
+	"github.com/ExzoNetwork/ExzoCoin/command/peers/list"
+	"github.com/ExzoNetwork/ExzoCoin/command/peers/status"
 	"github.com/spf13/cobra"
 )
 

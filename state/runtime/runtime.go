@@ -4,9 +4,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/0xPolygon/polygon-edge/chain"
-	"github.com/0xPolygon/polygon-edge/state/runtime/tracer"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/chain"
+	"github.com/ExzoNetwork/ExzoCoin/state/runtime/tracer"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 )
 
 // TxContext is the context of the transaction

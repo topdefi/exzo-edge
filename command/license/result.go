@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/licenses"
+	"github.com/ExzoNetwork/ExzoCoin/licenses"
 )
 
 type LicenseResult struct {

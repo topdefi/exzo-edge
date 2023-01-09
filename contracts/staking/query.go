@@ -6,9 +6,9 @@ import (
 
 	"github.com/umbracle/ethgo"
 
-	"github.com/0xPolygon/polygon-edge/contracts/abis"
-	"github.com/0xPolygon/polygon-edge/state/runtime"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/contracts/abis"
+	"github.com/ExzoNetwork/ExzoCoin/state/runtime"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 	"github.com/umbracle/ethgo/abi"
 )
 

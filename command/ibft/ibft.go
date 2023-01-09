@@ -1,13 +1,13 @@
 package ibft
 
 import (
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/command/ibft/candidates"
-	"github.com/0xPolygon/polygon-edge/command/ibft/propose"
-	"github.com/0xPolygon/polygon-edge/command/ibft/quorum"
-	"github.com/0xPolygon/polygon-edge/command/ibft/snapshot"
-	"github.com/0xPolygon/polygon-edge/command/ibft/status"
-	_switch "github.com/0xPolygon/polygon-edge/command/ibft/switch"
+	"github.com/ExzoNetwork/ExzoCoin/command/helper"
+	"github.com/ExzoNetwork/ExzoCoin/command/ibft/candidates"
+	"github.com/ExzoNetwork/ExzoCoin/command/ibft/propose"
+	"github.com/ExzoNetwork/ExzoCoin/command/ibft/quorum"
+	"github.com/ExzoNetwork/ExzoCoin/command/ibft/snapshot"
+	"github.com/ExzoNetwork/ExzoCoin/command/ibft/status"
+	_switch "github.com/ExzoNetwork/ExzoCoin/command/ibft/switch"
 	"github.com/spf13/cobra"
 )
 

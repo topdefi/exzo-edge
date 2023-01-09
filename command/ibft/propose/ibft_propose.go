@@ -3,10 +3,10 @@ package propose
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command"
+	"github.com/ExzoNetwork/ExzoCoin/command"
 	"github.com/spf13/cobra"
 
-	"github.com/0xPolygon/polygon-edge/command/helper"
+	"github.com/ExzoNetwork/ExzoCoin/command/helper"
 )
 
 func GetCommand() *cobra.Command {

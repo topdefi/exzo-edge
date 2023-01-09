@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/0xPolygon/polygon-edge/network"
+	"github.com/ExzoNetwork/ExzoCoin/network"
 	"github.com/hashicorp/hcl"
 	"gopkg.in/yaml.v3"
 )
@@ -82,8 +82,8 @@ func DefaultConfig() *Config {
 	defaultNetworkConfig := network.DefaultConfig()
 
 	return &Config{
-		GenesisPath:    "./genesis.json",
-		DataDir:        "",
+		GenesisPath:    "./mainnet-genesis.json",
+		DataDir:        "~/.exzocoin",
 		BlockGasTarget: "0x0", // Special value signaling the parent gas limit should be applied
 		Network: &Network{
 			NoDiscover:       defaultNetworkConfig.NoDiscover,
@@ -98,7 +98,7 @@ func DefaultConfig() *Config {
 		Telemetry:  &Telemetry{},
 		ShouldSeal: true,
 		TxPool: &TxPool{
-			PriceLimit:         0,
+			PriceLimit:         40000000000,
 			MaxSlots:           4096,
 			MaxAccountEnqueued: 128,
 		},

@@ -1,11 +1,11 @@
 package command
 
-import "github.com/0xPolygon/polygon-edge/server"
+import "github.com/ExzoNetwork/ExzoCoin/server"
 
 const (
 	DefaultGenesisFileName = "genesis.json"
-	DefaultChainName       = "polygon-edge"
-	DefaultChainID         = 100
+	DefaultChainName       = "exzocoin"
+	DefaultChainID         = 1229
 	DefaultPremineBalance  = "0xD3C21BCECCEDA1000000" // 1 million units of native network currency
 	DefaultConsensus       = server.IBFTConsensus
 	DefaultGenesisGasUsed  = 458752  // 0x70000

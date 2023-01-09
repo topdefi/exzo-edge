@@ -7,15 +7,15 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/0xPolygon/polygon-edge/state"
+	"github.com/ExzoNetwork/ExzoCoin/state"
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/0xPolygon/polygon-edge/chain"
+	"github.com/ExzoNetwork/ExzoCoin/chain"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/0xPolygon/polygon-edge/blockchain/storage"
-	"github.com/0xPolygon/polygon-edge/blockchain/storage/memory"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/blockchain/storage"
+	"github.com/ExzoNetwork/ExzoCoin/blockchain/storage/memory"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 )
 
 func TestGenesis(t *testing.T) {

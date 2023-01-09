@@ -3,12 +3,12 @@ package genesis
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command"
-	"github.com/0xPolygon/polygon-edge/command/genesis/predeploy"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/consensus/ibft"
-	"github.com/0xPolygon/polygon-edge/helper/common"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/ExzoNetwork/ExzoCoin/command"
+	"github.com/ExzoNetwork/ExzoCoin/command/genesis/predeploy"
+	"github.com/ExzoNetwork/ExzoCoin/command/helper"
+	"github.com/ExzoNetwork/ExzoCoin/consensus/ibft"
+	"github.com/ExzoNetwork/ExzoCoin/helper/common"
+	"github.com/ExzoNetwork/ExzoCoin/validators"
 	"github.com/spf13/cobra"
 )
 
@@ -40,7 +40,7 @@ func setFlags(cmd *cobra.Command) {
 		&params.genesisPath,
 		dirFlag,
 		fmt.Sprintf("./%s", command.DefaultGenesisFileName),
-		"the directory for the Polygon Edge genesis data",
+		"the directory for the Exzo Network genesis data",
 	)
 
 	cmd.Flags().Uint64Var(

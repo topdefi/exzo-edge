@@ -3,14 +3,14 @@ package fork
 import (
 	"errors"
 
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/hook"
-	"github.com/0xPolygon/polygon-edge/contracts/staking"
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	stakingHelper "github.com/0xPolygon/polygon-edge/helper/staking"
-	"github.com/0xPolygon/polygon-edge/state"
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
+	"github.com/ExzoNetwork/ExzoCoin/consensus/ibft/hook"
+	"github.com/ExzoNetwork/ExzoCoin/contracts/staking"
+	"github.com/ExzoNetwork/ExzoCoin/helper/hex"
+	stakingHelper "github.com/ExzoNetwork/ExzoCoin/helper/staking"
+	"github.com/ExzoNetwork/ExzoCoin/state"
+	"github.com/ExzoNetwork/ExzoCoin/types"
+	"github.com/ExzoNetwork/ExzoCoin/validators"
+	"github.com/ExzoNetwork/ExzoCoin/validators/store"
 )
 
 var (

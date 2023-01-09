@@ -3,8 +3,8 @@ package ibft
 import (
 	"math"
 
-	"github.com/0xPolygon/polygon-edge/types"
-	"github.com/0xPolygon/polygon-edge/validators"
+	"github.com/ExzoNetwork/ExzoCoin/types"
+	"github.com/ExzoNetwork/ExzoCoin/validators"
 )
 
 func CalcMaxFaultyNodes(s validators.Validators) int {

@@ -1,7 +1,7 @@
 package txpool
 
 import (
-	"github.com/0xPolygon/polygon-edge/txpool/proto"
+	"github.com/ExzoNetwork/ExzoCoin/txpool/proto"
 )
 
 type subscriptionID int32

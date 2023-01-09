@@ -3,11 +3,11 @@ package fork
 import (
 	"path/filepath"
 
-	"github.com/0xPolygon/polygon-edge/consensus/ibft/signer"
-	"github.com/0xPolygon/polygon-edge/validators"
-	"github.com/0xPolygon/polygon-edge/validators/store"
-	"github.com/0xPolygon/polygon-edge/validators/store/contract"
-	"github.com/0xPolygon/polygon-edge/validators/store/snapshot"
+	"github.com/ExzoNetwork/ExzoCoin/consensus/ibft/signer"
+	"github.com/ExzoNetwork/ExzoCoin/validators"
+	"github.com/ExzoNetwork/ExzoCoin/validators/store"
+	"github.com/ExzoNetwork/ExzoCoin/validators/store/contract"
+	"github.com/ExzoNetwork/ExzoCoin/validators/store/snapshot"
 	"github.com/hashicorp/go-hclog"
 )
 

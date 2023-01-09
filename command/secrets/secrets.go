@@ -1,10 +1,10 @@
 package secrets
 
 import (
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/command/secrets/generate"
-	initCmd "github.com/0xPolygon/polygon-edge/command/secrets/init"
-	"github.com/0xPolygon/polygon-edge/command/secrets/output"
+	"github.com/ExzoNetwork/ExzoCoin/command/helper"
+	"github.com/ExzoNetwork/ExzoCoin/command/secrets/generate"
+	initCmd "github.com/ExzoNetwork/ExzoCoin/command/secrets/init"
+	"github.com/ExzoNetwork/ExzoCoin/command/secrets/output"
 	"github.com/spf13/cobra"
 )
 

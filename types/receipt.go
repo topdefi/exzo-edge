@@ -3,8 +3,8 @@ package types
 import (
 	goHex "encoding/hex"
 
-	"github.com/0xPolygon/polygon-edge/helper/hex"
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
+	"github.com/ExzoNetwork/ExzoCoin/helper/hex"
+	"github.com/ExzoNetwork/ExzoCoin/helper/keccak"
 )
 
 type ReceiptStatus uint64

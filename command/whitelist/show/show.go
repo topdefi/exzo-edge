@@ -3,7 +3,7 @@ package show
 import (
 	"fmt"
 
-	"github.com/0xPolygon/polygon-edge/command"
+	"github.com/ExzoNetwork/ExzoCoin/command"
 	"github.com/spf13/cobra"
 )
 

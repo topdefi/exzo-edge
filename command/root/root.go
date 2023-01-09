@@ -4,19 +4,19 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/0xPolygon/polygon-edge/command/backup"
-	"github.com/0xPolygon/polygon-edge/command/genesis"
-	"github.com/0xPolygon/polygon-edge/command/helper"
-	"github.com/0xPolygon/polygon-edge/command/ibft"
-	"github.com/0xPolygon/polygon-edge/command/license"
-	"github.com/0xPolygon/polygon-edge/command/monitor"
-	"github.com/0xPolygon/polygon-edge/command/peers"
-	"github.com/0xPolygon/polygon-edge/command/secrets"
-	"github.com/0xPolygon/polygon-edge/command/server"
-	"github.com/0xPolygon/polygon-edge/command/status"
-	"github.com/0xPolygon/polygon-edge/command/txpool"
-	"github.com/0xPolygon/polygon-edge/command/version"
-	"github.com/0xPolygon/polygon-edge/command/whitelist"
+	"github.com/ExzoNetwork/ExzoCoin/command/backup"
+	"github.com/ExzoNetwork/ExzoCoin/command/genesis"
+	"github.com/ExzoNetwork/ExzoCoin/command/helper"
+	"github.com/ExzoNetwork/ExzoCoin/command/ibft"
+	"github.com/ExzoNetwork/ExzoCoin/command/license"
+	"github.com/ExzoNetwork/ExzoCoin/command/monitor"
+	"github.com/ExzoNetwork/ExzoCoin/command/peers"
+	"github.com/ExzoNetwork/ExzoCoin/command/secrets"
+	"github.com/ExzoNetwork/ExzoCoin/command/server"
+	"github.com/ExzoNetwork/ExzoCoin/command/status"
+	"github.com/ExzoNetwork/ExzoCoin/command/txpool"
+	"github.com/ExzoNetwork/ExzoCoin/command/version"
+	"github.com/ExzoNetwork/ExzoCoin/command/whitelist"
 	"github.com/spf13/cobra"
 )
 
@@ -27,7 +27,7 @@ type RootCommand struct {
 func NewRootCommand() *RootCommand {
 	rootCommand := &RootCommand{
 		baseCmd: &cobra.Command{
-			Short: "Polygon Edge is a framework for building Ethereum-compatible Blockchain networks",
+			Short: "Exzo Network is a framework for building Ethereum-compatible Blockchain networks",
 		},
 	}
 

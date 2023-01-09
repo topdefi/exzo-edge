@@ -3,7 +3,7 @@ package progress
 import (
 	"sync"
 
-	"github.com/0xPolygon/polygon-edge/blockchain"
+	"github.com/ExzoNetwork/ExzoCoin/blockchain"
 )
 
 type ChainSyncType string

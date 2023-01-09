@@ -1,9 +1,9 @@
 package buildroot
 
 import (
-	"github.com/0xPolygon/polygon-edge/helper/keccak"
-	itrie "github.com/0xPolygon/polygon-edge/state/immutable-trie"
-	"github.com/0xPolygon/polygon-edge/types"
+	"github.com/ExzoNetwork/ExzoCoin/helper/keccak"
+	itrie "github.com/ExzoNetwork/ExzoCoin/state/immutable-trie"
+	"github.com/ExzoNetwork/ExzoCoin/types"
 	"github.com/umbracle/fastrlp"
 )
 
